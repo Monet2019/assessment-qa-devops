@@ -1,0 +1,67 @@
+Test Plan:
+
+
+Overview:
+
+This will test aspects of the Dual Duo website
+
+
+Links:
+
+http://localhost:8000/
+
+
+Test Criteria:
+
+Clicking See all bots button should display all bots
+Clicking Draw button should give the user 5 random bots to choose from
+Clicking Add to duo button should move the bot card to the users duo
+Clicking Duel should make the users bots duel against the bots
+
+Entry Criteria:
+
+A decent internet connection (10 mbps or greater)
+ Access to Safari Version 16.6 (18615.3.12.11.2)
+
+Exit Criteria:
+
+All test cases passed
+
+Other Criteria:
+none
+
+
+--------------TEST CASE--------------------------
+
+
+Description
+
+Clicking the See all bots button should display all bots
+
+
+Steps:
+
+1. Navigate to the folder assessment-qa-devops
+
+2. Run npm start in the terminal
+
+3. Running npm start will take the user to http://localhost:8000/
+
+4. Click on the See all bots button
+
+Test post conditions:
+
+1. All bot cards are displayed
+
+
+
+
+
+--------BUG REPORTS----------
+
+
+1. Whenever a player wins the counter does not increase 
+
+2. The See All bots button does not function at all 
+
+3. The counter doesn't reset when the page is refreshed
