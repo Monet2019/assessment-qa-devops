@@ -1,4 +1,4 @@
-Test Plan:
+__________Test Plan_____________
 
 
 Overview:
@@ -45,11 +45,12 @@ Steps:
 
 2. Run npm start in the terminal
 
-3. Running npm start will take the user to http://localhost:8000/
+3. Running npm start will take the user to http://localhost:3000/
 
 4. Click on the See all bots button
 
-Test post conditions:
+
+Test postconditions:
 
 1. All bot cards are displayed
 
